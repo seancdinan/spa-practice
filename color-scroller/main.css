@@ -1,0 +1,48 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#colorGrid {
+	border: 10px solid gray;
+	height: 350px;
+	width: 700px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.result {
+	height: 200px;
+	width: 200px;
+	border: 2px solid black;
+	margin: 10px;
+}
+
+#next{
+	height: 40px;
+	width: 150px;
+	background: hsl(175, 40%, 40%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 10px;
+	left: 350px;
+	color: white;
+}
+#previous{
+	height: 40px;
+	width: 150px;
+	background: hsl(75, 40%, 40%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 10px;
+	left: 150px;
+	color: white;
+}
+#next:hover{background: hsl(175, 40%, 20%);}
+#previous:hover{background: hsl(75, 40%, 20%);}
